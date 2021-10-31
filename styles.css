@@ -1,0 +1,59 @@
+body
+{
+	height:  100vh;
+	weight:  100vw;
+}
+.top-menu
+{
+
+}
+.container
+{
+	width:  98vw;
+	background-color: #f0f;
+	margin: 0, auto;
+	text-align:  justify;
+}
+.footer_section
+{
+
+}
+.section_separator
+{
+	width:  60vh;
+	border:  solid 2px black;
+}
+.mytable, td, tr
+{
+	border: solid 2px black;
+	border-collapse: collapse;
+}
+.myphoto
+{
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+.top-menu
+{
+	background-color:  #c3a67e;
+	overflow: hidden;
+}
+.top-menu li
+{
+	list-style-type: none;
+	float:  left;
+	border-right: solid 1px #fff;
+	padding: 5px 10px;
+}
+.top-menu li a
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+.top-menu li a:hover
+{
+	color: blue;
+}
