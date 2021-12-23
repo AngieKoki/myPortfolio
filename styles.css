@@ -1,234 +1,61 @@
-/*created on: Oct 25 2021*/
-/*modified on: Nov 1 2021*/
-/*body
-{
-	width: 100%;
-	height: 100%;
-	overflow: scroll;
+/* body*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body {
+	font: 15px/1.5;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f8f8f8;
+	;
 }
-.rootDiv
-{
-	background-color: red;
+/*Global*/
+.container{
+	width: 80%;
+	padding: 0;
+	margin: auto;
+	overflow:hidden;
 }
-.header
-{
-	background-color: red;
+ul{
+	margin: 0;
+	padding:0;
 }
-.containerInformation
-{
-	background-color: red;
-}	
-.userInformation
-{
-	background-color: red;
+header{
+	background: #35424a;
+	color: #ffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
 }
-.displayPicture
-{
-	background-color: red;
-}	
-.leftNav
-{
-	padding: 10px;
-	width: 20%;
-	height: 50%;
-	background-color: red;
-	float: left;
-	box-shadow: 10px 10px 10px black;
-}
-a
-{
-	width: auto;
-	height: 3%;
-	padding: 10px;
-	background-color: red;
-	color: black;
-	display: block;
+header a{
+	color:#ffff;
 	text-decoration: none;
-	transition:all 200ms ease-in-out;
+	text-transform:uppercase;
+	font-size:16px;
 }
-.quickLink:hover
-{
-	background-color: red;
-	box-shadow: 10px 10px 10px black;
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
 }
-.mainContent
-{
-	padding: 10px;
-	position: absolute;
-	left: 30%;
-	width: 60%;
-	height: 46%;
-	scroll-behavior: smooth;
-	overflow: scroll;
-	scrollbar-width: none;
-	background-color: red;
-	float: right;
-	box-shadow: 10px 10px 10px black;
-}
-.socialsContainer
-{
+header #branding{
+	float: left;
 
 }
-.flexify
-{
-	display :flex;
+header #branding h1{
+	margin: 0;
+
 }
-.horiz
-{
-	flex-direction: row;
-}
-.cardItem
-{
-	width: 10%;
-	height: 25%;
-	border-radius: 10px;
-	box-shadow: 13px 13px 13px;
-}
-.contentHome
-{
-	background-color: white;
-}
-.homeContainer
-{
-	background-color: red;
-}
-.horizontalRule
-{
-	background-color: black;
-}
-.footerContent
-{
-	background-color: red;
-}
-.mainContainer
-{
-	padding: 10px;
-	height: 50%;
-	width: 100%;
-	overflow: hidden;
-}
-.exampleHide
-{
-	display: none;	
-	position: absolute;
-	width: 200px;
-	height: 40px;
-	background-color: yellow;
-	top: 150px;
-	left: 250px;
-	z-index: 2;
-}
-#exampleTheTarget:hover
-{
-	<//script></script>
-}
-.myProfile
-{
-	object-fit: cover;
-}
-.leftPlaced
-{
-	float: left;
-}
-.rightPlaced
-{
+header nav{
 	float: right;
+	margin-top: 20px;
 }
-.showThis
-{
-	display: block;
-	height: 150px;
-	width: 100vw;
+header .highlight, header .current a{
+	color: #e8491d;
+	font-weight: bold;
+
 }
-.flexify
-{
-	display: flex;
+header a:hover{
+	color: #e8491d;
+	font-weight: bold;
+
 }
-.horiz
-{
-	flex-direction: row;
-}
-.centerify
-{
-	justify-content: space-evenly;
-	align-items: center;
-}
-.paddingAdd
-{
-	padding: 10px;
-}
-.cornerSmoothen
-{
-	overflow: hidden;
-	border-radius: 10px;
-}
-.card
-{
-	max-width: 220px;
-	min-width: 220px;
-	height: 180px;
-	box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
-}
-.noShadow
-{
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);	
-}
-.colorRed
-{
-	background-color: red;
-}
-.colorPurple
-{
-	background-color: rebeccapurple;
-}
-.badgeStuff
-{
-	width: calc(220px - 10px);
-	height: 40px;
-	padding: 10px;
-}
-.colorYellow
-{
-	background-color: yellow;
-}
-.colorBlue
-{
-	background-color: blue;
-}
-.colorGreen
-{
-	background-color: green;
-}
-.colorPink
-{
-	background-color: pink;
-}
-.colorGrey
-{
-	background-color: grey;
-}
-.fitImage
-{
-	width: 220px;
-	height: 220px;
-}
-.marginAdd
-{
-	margin: 20px;
-}
-.getParams
-{
-	width: 84vw;
-	height: 60px;
-}
-.leftSpace
-{
-	margin:5px 20px;
-}
-.scrollStuff
-{
-	overflow-x: scroll;
-	overflow-y: hidden;
-	scroll-behavior: smooth;
-	scrollbar-width: none;
-}*/
