@@ -62,16 +62,38 @@ header a:hover{
 /*landing*/
 #landing{
 	min-height: 400px;
-	background:url("../img/landing3.jpg") no-repeat;
-	text-align:center;
+	position: relative;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
 	color: #ffff;
 }
+#landing::before{
+	content:"";
+	position: absolute;
+	background:url("../img/landing3.jpg") no-repeat;
+	top: 0px;
+	right:0px;
+	bottom:0px;
+	left: 0px;;
+	/*background-color: rgba(255, 0, 0, 0.1);*/
+	background-size: cover;
+	opacity: 0.8;
+}
+
 #landing h1{
+	position: relative;
 	margin-top: 200px;
 	font-size: 55px;
 	margin-bottom:10px;
 }
 #landing p{
+	position: relative;
+	font-weight: bold;
 	font-size: 20px;
 
 }
